@@ -1,0 +1,11 @@
+name,type,lat,lon
+Central Hospital,Hospital,40.7150,-74.0089
+Downtown Clinic,Clinic,40.7164,-74.0033
+Emergency Care Center,Emergency,40.7230,-73.9965
+Family Practice,Clinic,40.7185,-73.9912
+Pediatric Center,Specialty,40.7195,-74.0021
+Urgent Care,Urgent Care,40.7140,-73.9965
+Physical Therapy,Rehabilitation,40.7210,-74.0045
+Mental Health Center,Mental Health,40.7175,-73.9985
+Dental Office,Dental,40.7155,-74.0012
+Pharmacy,Pharmacy,40.7200,-73.9955

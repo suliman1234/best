@@ -1,0 +1,107 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Downtown District",
+        "population": 1500
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-74.006, 40.7128],
+          [-74.000, 40.7128],
+          [-74.000, 40.7200],
+          [-74.006, 40.7200],
+          [-74.006, 40.7128]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Residential Area A",
+        "population": 850
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-74.000, 40.7128],
+          [-73.994, 40.7128],
+          [-73.994, 40.7200],
+          [-74.000, 40.7200],
+          [-74.000, 40.7128]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Residential Area B",
+        "population": 450
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-73.994, 40.7128],
+          [-73.988, 40.7128],
+          [-73.988, 40.7200],
+          [-73.994, 40.7200],
+          [-73.994, 40.7128]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Suburban District",
+        "population": 320
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-74.006, 40.7200],
+          [-74.000, 40.7200],
+          [-74.000, 40.7272],
+          [-74.006, 40.7272],
+          [-74.006, 40.7200]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Commercial Zone",
+        "population": 180
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-74.000, 40.7200],
+          [-73.994, 40.7200],
+          [-73.994, 40.7272],
+          [-74.000, 40.7272],
+          [-74.000, 40.7200]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Industrial Area",
+        "population": 75
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-73.994, 40.7200],
+          [-73.988, 40.7200],
+          [-73.988, 40.7272],
+          [-73.994, 40.7272],
+          [-73.994, 40.7200]
+        ]]
+      }
+    }
+  ]
+}
