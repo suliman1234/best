@@ -1,14 +1,87 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
 }
 
 h1 {
-    padding: 10px;
+    padding: 15px;
     text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 #map {
-    height: 90vh;
+    height: calc(100vh - 60px);
     width: 100%;
+    border: 1px solid #ddd;
+}
+
+/* Legend styling */
+.legend {
+    line-height: 18px;
+    color: #555;
+    background: white;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.legend h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.8;
+    border: 1px solid #ccc;
+}
+
+/* Custom marker styling */
+.custom-marker {
+    border-radius: 50%;
+}
+
+/* Leaflet popup styling improvements */
+.leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+.leaflet-popup-content {
+    margin: 12px 16px;
+    line-height: 1.4;
+}
+
+/* Layer control styling */
+.leaflet-control-layers {
+    background: rgba(255,255,255,0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+    
+    #map {
+        height: calc(100vh - 50px);
+    }
+    
+    .legend {
+        font-size: 11px;
+        padding: 8px;
+    }
 }
